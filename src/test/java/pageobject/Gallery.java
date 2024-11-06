@@ -40,6 +40,7 @@ public class Gallery extends BaseClass {
 	  
 	  @FindBy(id="gallery-name")
 	  WebElement galleryName;
+	  //gallery name
 	  
 	  @FindBy(xpath="//*[@id=\"app\"]/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div/div[1]/select/option[2]")
 	  WebElement galleryEvent;
