@@ -31,6 +31,7 @@ public class Gallery extends BaseClass {
 	  
 	  @FindBy(xpath="//*[@id=\"Gallery\"]/ul/a[1]/a/span")
 	  WebElement galleryAdd;
+	  //add gallery
 	  
 	  @FindBy(xpath="/html/body/div[1]/div/div[2]/div/div/div/div[2]/div[1]/div[3]/div/div[1]/div/div/div[1]/div[1]/input")
 	  WebElement galleryManadal;
